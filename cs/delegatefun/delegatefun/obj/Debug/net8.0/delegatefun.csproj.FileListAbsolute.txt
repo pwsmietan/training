@@ -1,0 +1,14 @@
+D:\Corporate\training\cs\delegatefun\delegatefun\bin\Debug\net8.0\delegatefun.exe
+D:\Corporate\training\cs\delegatefun\delegatefun\bin\Debug\net8.0\delegatefun.deps.json
+D:\Corporate\training\cs\delegatefun\delegatefun\bin\Debug\net8.0\delegatefun.runtimeconfig.json
+D:\Corporate\training\cs\delegatefun\delegatefun\bin\Debug\net8.0\delegatefun.dll
+D:\Corporate\training\cs\delegatefun\delegatefun\bin\Debug\net8.0\delegatefun.pdb
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.AssemblyInfoInputs.cache
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.AssemblyInfo.cs
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.csproj.CoreCompileInputs.cache
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.dll
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\refint\delegatefun.dll
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.pdb
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\delegatefun.genruntimeconfig.cache
+D:\Corporate\training\cs\delegatefun\delegatefun\obj\Debug\net8.0\ref\delegatefun.dll

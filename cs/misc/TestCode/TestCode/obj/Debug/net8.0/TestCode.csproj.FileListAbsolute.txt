@@ -1,0 +1,14 @@
+D:\Corporate\training\cs\misc\TestCode\TestCode\bin\Debug\net8.0\TestCode.exe
+D:\Corporate\training\cs\misc\TestCode\TestCode\bin\Debug\net8.0\TestCode.deps.json
+D:\Corporate\training\cs\misc\TestCode\TestCode\bin\Debug\net8.0\TestCode.runtimeconfig.json
+D:\Corporate\training\cs\misc\TestCode\TestCode\bin\Debug\net8.0\TestCode.dll
+D:\Corporate\training\cs\misc\TestCode\TestCode\bin\Debug\net8.0\TestCode.pdb
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.AssemblyInfoInputs.cache
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.AssemblyInfo.cs
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.csproj.CoreCompileInputs.cache
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.dll
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\refint\TestCode.dll
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.pdb
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\TestCode.genruntimeconfig.cache
+D:\Corporate\training\cs\misc\TestCode\TestCode\obj\Debug\net8.0\ref\TestCode.dll

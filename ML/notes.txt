@@ -1,0 +1,31 @@
+ML Notes
+-----------------------------------------
+
+- Data Pre-Processing
+	- import the data
+	- clean the data
+	- split into training and test sets
+		- dependant variable: predict sales price of cars
+		- independant var: mileage, age of cars
+		- separate data before processing
+		- use linear regression
+		- model is applied to data
+		- compare predicted values to actuals
+		
+	
+- Modelling
+	- Build the model
+	- Train the model
+	- Make predictions
+	
+- Evaluation
+	- Calculate performance metrics
+	- Make a verdict
+	
+- Feature Scaling
+	- applied to columns (not rows)
+	- normalization: subtract minimum [0;1]
+	- standardization: subtract average [-3;+3]
+	
+	
+	

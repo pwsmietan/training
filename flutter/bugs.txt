@@ -1,0 +1,24 @@
+If you run flutter doctor and see a message saying "[!] Android Studio (not installed)", don't worry. You can fix this by pointing Flutter to the location of your Android Studio installation.
+
+Here's what to do:
+
+Open your terminal.
+
+Type the following command: flutter config --android-studio-dir="C:\Program Files\Android\Android Studio"
+
+This path is the typical location for Android Studio. However, if you installed Android Studio in a different location, simply replace "C:\Program Files\Android\Android Studio" in the command with the path to where your Android Studio is installed. Make sure to include the path within the quotes. This will help Flutter recognize where Android Studio is located on your computer.
+
+
+If you encounter an error during the installation of Intel HAXM, follow these steps to resolve it:
+
+First, ensure that you have the necessary permissions to make changes to your system.
+
+Open the Windows Features settings:
+
+You can do this by searching for “Windows Features” in the Start Menu or Windows Search.
+
+Check the boxes next to “Virtual Machine Platform” and “Windows Hypervisor Platform”.
+
+Click OK to save the changes.
+
+These adjustments should help you successfully install Intel HAXM.

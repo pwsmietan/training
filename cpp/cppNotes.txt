@@ -1,0 +1,106 @@
+Main memory divided into 3 sections
+- Size of memory required by a function is decided at compile time (static alloc)
+
+
+
+
+-----------------------------------
+
+------
+CPU
+------
+  |
+  |
+  |
+------
+HEAP
+
+- can be unorganized/organized memory
+- dynamic memory allocated from heap
+- should be treated as a resource (alloc/free)
+- the program does not access heap directly
+- use pointers to use heap
+- objects created with new keyword
+  -C++ int *p = new int[5]; delete p;
+  -C p = (int *)malloc(sizeof(int)*5); free(p) or p=null
+  - dispose to avoid memory leaks
+  
+  
+  
+
+------
+STACK
+
+- variables stored here (int, float, ...)
+- static memory is allocated from stack (at compile time)
+- stack frame/activation record as fns execute
+  - purged when fns() exit, then main() exit
+
+
+------
+CODE SECTION
+
+- variables
+- main() + fns()
+- machine code is loaded here
+
+------
+
+Physical data structures
+------
+- Arrays
+  - size is static
+  - can be stored in stack or heap (via pointer)
+  
+- Linked List
+  - variable length structure
+  - nodes are created in heap memory
+  - head pointer could be on stack
+ 
+ ------
+ Logical Data Structures 
+   - Implemented as physical data structures
+ ------
+ - Stack (linear) LIFO
+ - Queue (linear) FIFO
+ - Trees (non-linear)
+ - Graph (non-linear)
+ - Hash Table (tabular)
+  
+  ------
+  Abstract Data Types (ADT)
+   - Representation of data
+   - Operation on data (math primitives)
+   - high-bit is sign-bit; remaining 15-bits store value
+   - abstract hides the details of the operations
+   - Combining Data + Operations is how we define an ADT
+   - Physical + Logical data structures can be represented as ADTs
+
+----------------
+Time and Space Complexity
+- an array has n-elements
+- O(n) :: order of n-elements
+- O(n^2) :: nxn = n^2 e.g. nested loops
+- log n base 2 when for(i=n; i>1; i=i/2) i being divided in half
+- matrices are nxn O(n) or O(n^2) depending on number of elements being processed
+- linked list O(n) or O(m+n)
+- binary tree log n base 2 O(log(n)) or O(n)
+
+----------------
+Types of Recursion
+- Head
+- Tail
+- Tree
+	- Time: O(2^n)
+	- Space: 
+		- 1 activation record per call
+		- O(n)
+- Indirect
+	- recursive cycle (ex. a->b->a->b ...)
+	- need a terminating condition otherwise it'll be endless
+	
+----------------
+
+	
+	
+   
