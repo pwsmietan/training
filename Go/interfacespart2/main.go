@@ -70,7 +70,7 @@ func main() {
 
 	/*
 	 * Create a slice of Animals and put each animal
-	 * onto a slice.
+	 * onto a slice. Call the speak function via the interface.
 	 */
 	fmt.Println("Call method by interface type:")
 	animals := []Animal{Dog{}, Cat{}, Llama{}, Programmer{}}
