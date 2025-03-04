@@ -24,21 +24,28 @@ type shape interface {
 	area() float64
 }
 
-// The receiver binds to the structure definition.
+/*
+ * The receiver 'c' binds to the structure definition "circle" and using the
+ * definition on line #8 we could make the receiver a pointer (e.g., (c *circle))
+ * but then calling output(&c) passing the addresswould execute properly.
+ */
 func (c circle) area() float64 {
 	return math.Pi * c.radius * c.radius
 }
 
 func output(a shape) {
-	fmt.Printf("Area: %v\v", a.area())
+	fmt.Printf("Area: %v\n", a.area())
 }
 
 func main() {
 	c := circle{5}
-	fmt.Println("Display area through method set: ", c.area())
-	fmt.Println("Display area through interface")
+	fmt.Printf("Display area through method set: %v\n\n", c.area())
+
+	fmt.Println("Display area through interface:")
 	output(c)
-	fmt.Println("Display area through interface passing a pointer")
+	fmt.Println()
+
+	fmt.Println("Display area through interface passing a pointer:")
 	output(&c)
 
 }
