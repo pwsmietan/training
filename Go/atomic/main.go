@@ -20,12 +20,12 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(gs)
 
-	for i := 0; i < gs; i++ {
+	for i := range gs {
 		// Kick-off anonyumous function:
 		go func() {
-			atomic.AddInt64(&counter,1)
-			fmt.Printf("C: %v\n",atomic.LoadInt64(&counter))
-			//runtime.Gosched()			
+			atomic.AddInt64(&counter, 1)
+			fmt.Printf("C: %v\n", atomic.LoadInt64(&counter))
+			//runtime.Gosched()
 			wg.Done()
 		}()
 		fmt.Printf("Goroutines -> Launch #%d\t%v\n", i, runtime.NumGoroutine())
